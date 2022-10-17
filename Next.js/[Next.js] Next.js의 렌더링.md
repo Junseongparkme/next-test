@@ -71,7 +71,9 @@ export async function getStaticPaths() {
 ```tsx
 [{ params: { id: '1' } }, { params: { id: '2' } }, ...]
 ```
+
 getStaticProps 함수는 인자로 URL에 입력한 parameters를 전달받음
+
 ```tsx
 // /blog/[id].tsx
 
