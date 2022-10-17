@@ -1,5 +1,6 @@
 {
   "showFrontmatter": true,
   "showLineNumber": false,
-  "vimMode": false
+  "vimMode": false,
+  "tabSize": 2
 }

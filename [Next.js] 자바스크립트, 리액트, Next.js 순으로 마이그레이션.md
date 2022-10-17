@@ -64,13 +64,14 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 ```
 
-Babel이 해석해야하는 스크립트를 알려주기 위해 _<script type="text/jsx">_ 사용
+Babel이 해석해야하는 스크립트를 알려주기 위해 script type="text/jsx"사용
 
-```
+```html
 <script type="text/jsx">
   const app = document.querySelector('#root');
   ReactDOM.render(<h1>Hello World</h1>, app);
 </script>
+```
 
 ### 컴포넌트로 UI 빌드하기
 
@@ -79,7 +80,7 @@ Babel이 해석해야하는 스크립트를 알려주기 위해 _<script type="
 -   애플리케이션의 나머지 부분을 건드리지 않고 복잡한 UI를 쉽게 관리할 수 있음
 -   컴포넌트는 JSX를 반환하는 함수이며 아래 두 가지 규칙을 적용함
     -   함수의 첫 글자는 대문자 - HTML 및 자바스크립트 구문과 구분하기 위함
-    -   HTML처럼 _< >_ 를 통해 컴포넌트 사용
+    -   HTML처럼 < > 를 통해 컴포넌트 사용
 
 ### Props를 통해 데이터 전달하기
 
@@ -135,7 +136,7 @@ Babel이 해석해야하는 스크립트를 알려주기 위해 _<script type="
 npm install react react-dom next
 ```
 
-패키지들을 설치하면 dependencies가 추가되며 node_modules 폴더가 생성되고 설치한 패키지들이 저장됨
+패키지들을 설치하면 dependencies가 추가되며 nodemodules 폴더가 생성되고 설치한 패키지들이 저장됨
 
 ```json
 // package.json
@@ -154,21 +155,21 @@ npm install react react-dom next
 index.html 파일에서 아래 지시사항에 따라 파일을 수정합니다.
 
 -   react와 react-dom을 가져오는 script 태그 제거 - npm으로 이미 설치함
--   _<html>_과 _<body>_ 태그를 제거 - Next.js가 자동으로 생성
--   _ReactDOM.render_과 _document.querySelector('#root')_ 구문 제거
+-   html과 body 태그를 제거 - Next.js가 자동으로 생성
+-   ReactDOM.render과 document.querySelector('#root') 구문 제거
 -   Babel을 불러오는 스크립트를 제거 - Next.js는 JSX를 자바스크립트로 변환시키는 컴파일러를 포함
--   _<script type="text/jsx>_ 태그 제거 - Babel을 사용하지 않기 때문에 필요 없음 (태그만 제거, 내용은 남김)
--   _React.useState(0)_ 에서 _React._ 를 제거하여 _useState(0)_ 으로 남겨둠
--   파일의 제일 위에 _import { useState } from 'react';_ 를 추가
+-   script type="text/jsx 태그 제거 - Babel을 사용하지 않기 때문에 필요 없음 (태그만 제거, 내용은 남김)
+-   React.useState(0) 에서 React. 를 제거하여 useState(0) 으로 남겨둠
+-   파일의 제일 위에 import { useState } from 'react'; 를 추가
 -   확장자를 .js 또는 .jsx로 변환
 -   pages 폴더를 만들고 이 폴더로 index.js 파일을 이동
--   최종적으로 렌더링하고 싶은 컴포넌트 함수 앞에 _export default_를 추가
+-   최종적으로 렌더링하고 싶은 컴포넌트 함수 앞에 export default를 추가
 
 ### Next.js 실행하기
 
 package.json에 아래 코드를 추가
 
-```
+```json
   "scripts": {
     "dev": "next dev"
   }
@@ -176,7 +177,7 @@ package.json에 아래 코드를 추가
 
 아래 명령어를 입력하여 개발 서버를 실행
 
-```
+```zsh
 npm run dev
 ```
 
