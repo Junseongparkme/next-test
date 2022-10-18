@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md",
+                "file": "Astro/Partytown을 사용하여 Astro에 Google Analytics 통합하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 382.5
   },
   "right": {
     "id": "297ff4cbeb823580",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md",
+                "file": "Astro/Partytown을 사용하여 Astro에 Google Analytics 통합하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md",
+                "file": "Astro/Partytown을 사용하여 Astro에 Google Analytics 통합하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md"
+                "file": "Astro/Partytown을 사용하여 Astro에 Google Analytics 통합하기.md"
               }
             }
           }
@@ -141,10 +141,10 @@
   },
   "active": "c01f0a9b58c7fa4f",
   "lastOpenFiles": [
-    "Next.js/[Next.js] 자바스크립트, 리액트, Next.js 순으로 마이그레이션.md",
-    "Next.js/[Next.js] Next.js의 렌더링.md",
-    "Next.js/[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md",
-    "Next.js/[Next.js] Next.js를 사용하는 이유.md",
-    "Next.js/[Next.js] Next.js의 동작 원리.md"
+    "[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md",
+    "[Next.js] Next.js를 사용하는 이유.md",
+    "[Next.js] Next.js의 동작 원리.md",
+    "[Next.js] Next.js의 렌더링.md",
+    "[Next.js] 자바스크립트, 리액트, Next.js 순으로 마이그레이션.md"
   ]
 }
