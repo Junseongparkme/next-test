@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e651f0779ef1d536",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React with Promise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "React/React with Promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "React/React with Promise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "React/React with Promise.md"
               }
             }
           }
@@ -152,8 +164,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ae739995a0d3b8f6",
+  "active": "e651f0779ef1d536",
   "lastOpenFiles": [
+    "README.md",
     "Astro/Partytown을 사용하여 Astro에 Google Analytics 통합하기.md",
     "[Next.js] Link 컴포넌트를 이용한 페이지 탐색.md",
     "[Next.js] Next.js를 사용하는 이유.md",
