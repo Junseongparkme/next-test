@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9aeca77aae7222c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "작성중 - 상태관리 파트 다 합칠거임.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/리액트에서의 순수 함수와 사이드 이펙트.md",
+                "file": "작성중 - 상태관리 파트 다 합칠거임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/리액트에서의 순수 함수와 사이드 이펙트.md",
+                "file": "작성중 - 상태관리 파트 다 합칠거임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/리액트에서의 순수 함수와 사이드 이펙트.md"
+                "file": "작성중 - 상태관리 파트 다 합칠거임.md"
               }
             }
           }
@@ -139,6 +152,8 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a20869d677f49571",
-  "lastOpenFiles": []
+  "active": "9aeca77aae7222c2",
+  "lastOpenFiles": [
+    "React/리액트에서의 순수 함수와 사이드 이펙트.md"
+  ]
 }
