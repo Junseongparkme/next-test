@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6f869c5e457a26f",
+            "id": "ff908cf1f1d35510",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/리액트에서의 순수 함수와 사이드 이펙트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9aeca77aae7222c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "작성중 - 상태관리 파트 다 합칠거임.md",
+                "file": "React/state 업데이트.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "022d58ec55f4bd59",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "작성중 - 상태관리 파트 다 합칠거임.md",
+                "file": "React/state 업데이트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "작성중 - 상태관리 파트 다 합칠거임.md",
+                "file": "React/state 업데이트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "작성중 - 상태관리 파트 다 합칠거임.md"
+                "file": "React/state 업데이트.md"
               }
             }
           }
@@ -152,8 +139,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9aeca77aae7222c2",
+  "active": "a20869d677f49571",
   "lastOpenFiles": [
+    "JavaScript/객체와 배열의 얕은 복사와 깊은 복사.md",
+    "React/state 업데이트.md",
     "React/리액트에서의 순수 함수와 사이드 이펙트.md"
   ]
 }
