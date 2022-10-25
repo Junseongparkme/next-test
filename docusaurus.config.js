@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UXev Wiki',
-  tagline: "UXev's Digital Brain",
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Archieve',
+  url: 'https://uxev-wiki.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   projectName: 'uxev-wiki',
   i18n: {
     defaultLocale: 'ko',
-    locales: ['en', 'ko'],
+    locales: ['ko'],
   },
 
   presets: [
@@ -101,7 +101,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} UXev Wiki, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} UXev, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
