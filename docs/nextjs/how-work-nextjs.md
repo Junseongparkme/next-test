@@ -1,12 +1,7 @@
 ---
-slug: working-of-next-js
-title: working of next.js
-authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+slug: how-to-work
+title: 동작 원리
+tags: [Next.js]
 ---
 
 ## 개발 환경과 프로덕션 환경

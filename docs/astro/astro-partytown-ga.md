@@ -1,20 +1,15 @@
 ---
-slug: google-analytics
-title: Google Analytics
-authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+slug: ga-with-partytown
+title: Partytown을 사용하여 Google Analytics 연결하기
+tags: [Astro, Partytown]
 ---
 
-# Partytown
+## Partytown
 
 - 스크립트 로드를 메인 쓰레드가 아닌 Web Worker에게 위임하기 위해 사용하는 라이브러리
 - 메인 쓰레드는 중요한 작업만을 담당하게 되므로 웹 사이트의 성능이 개선됨
 
-## Astro에 통합하기
+### Astro에 통합하기
 
 npm, yarn, pnpm 중 원하는 노드 패키지 매니저를 사용
 
@@ -40,7 +35,7 @@ export default defineConfig({
 });
 ```
 
-## `<head>` 태그에 Google Analytics 스크립트 추가
+### `<head>` 태그에 Google Analytics 스크립트 추가
 
 - 기존 Google Analytics 스크립트에서 async 속성 제거
 - `type="text/partytown"` 속성 추가
