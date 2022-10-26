@@ -14,7 +14,7 @@ const config = {
   projectName: 'uxev-wiki',
   i18n: {
     defaultLocale: 'ko',
-    locales: ['ko', 'en'],
+    locales: ['ko'],
   },
 
   presets: [
@@ -44,13 +44,40 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Introduction',
+            docId: 'how-to-intro',
             position: 'left',
-            label: 'Docs',
+            label: 'How to',
+          },
+          {
+            type: 'doc',
+            docId: 'ref-intro',
+            position: 'left',
+            label: 'Reference',
+          },
+          {
+            type: 'doc',
+            docId: 'exp-intro',
+            position: 'left',
+            label: 'Explanation',
           },
           {
             href: 'https://github.com/uxev',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.linkedin.com/in/uxev/',
+            label: 'LinkedIn',
+            position: 'right',
+          },
+          {
+            href: 'https://uxev.github.io',
+            label: 'Blog',
+            position: 'right',
+          },
+          {
+            href: 'https://twitter.com/UXev6',
+            label: 'Twitter',
             position: 'right',
           },
         ],
