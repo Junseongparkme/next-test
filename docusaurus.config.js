@@ -16,18 +16,6 @@ const config = {
     defaultLocale: 'ko',
     locales: ['ko'],
   },
-  plugins: [
-    async function vercelAnalytics(context, options) {
-      return {
-        name: 'vercel-analytics',
-        async loadContent() {
-          import('@vercel/analytics').then(({ inject }) => {
-            inject();
-          });
-        },
-      };
-    },
-  ],
 
   presets: [
     [
