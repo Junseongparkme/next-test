@@ -11,10 +11,10 @@ tags: [Astro, Partytown]
 
 ### Astro에 통합하기
 
-npm, yarn, pnpm 중 원하는 노드 패키지 매니저를 사용
+npx, yarn, pnpm 중 원하는 노드 패키지 매니저를 사용
 
 ```zsh
-npm astro add partytown
+pnpm astro add partytown
 ```
 
 `astro.config.mjs` 파일의 `partytown`의 인자에 아래와 같은 객체 전달

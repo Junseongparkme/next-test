@@ -61,6 +61,12 @@ const config = {
             label: 'Explanation',
           },
           {
+            type: 'doc',
+            docId: 'update-intro',
+            position: 'left',
+            label: 'Update',
+          },
+          {
             href: 'https://github.com/uxev',
             label: 'GitHub',
             position: 'right',
