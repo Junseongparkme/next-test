@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import { inject } from '@vercel/analytics';
 
-inject();
 export default function Home() {
   return (
     <Layout title="Homepage" description="Homepage">
