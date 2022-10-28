@@ -48,27 +48,27 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'how-to-intro',
+            docId: 'how-to/how-to-intro',
             position: 'left',
             label: 'How to',
           },
           {
             type: 'doc',
-            docId: 'ref-intro',
+            docId: 'ref/ref-intro',
             position: 'left',
             label: 'Reference',
           },
           {
             type: 'doc',
-            docId: 'exp-intro',
+            docId: 'exp/exp-intro',
             position: 'left',
             label: 'Explanation',
           },
           {
             type: 'doc',
-            docId: 'update-intro',
+            docId: 'updates/update-intro',
             position: 'left',
-            label: 'Update',
+            label: 'Updates',
           },
           {
             href: 'https://github.com/uxev',
