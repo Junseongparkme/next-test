@@ -1,5 +1,5 @@
 ---
-slug: how-to-work
+slug: nextjs/how-to-work
 title: 동작 원리
 tags: [Next.js]
 ---
