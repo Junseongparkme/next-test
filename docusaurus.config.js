@@ -65,12 +65,6 @@ const config = {
             label: 'Explanation',
           },
           {
-            type: 'doc',
-            docId: 'updates/update-intro',
-            position: 'left',
-            label: 'Updates',
-          },
-          {
             href: 'https://github.com/uxev',
             label: 'GitHub',
             position: 'right',
@@ -83,11 +77,6 @@ const config = {
           {
             href: 'https://uxev.github.io',
             label: 'Blog',
-            position: 'right',
-          },
-          {
-            href: 'https://twitter.com/UXev6',
-            label: 'Twitter',
             position: 'right',
           },
         ],
