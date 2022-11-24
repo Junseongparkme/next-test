@@ -5,18 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UXev Wiki',
-  url: 'https://.netlify.net',
+  tagline: 'UXev Wiki',
+  url: 'https://uxev-wiki.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'UXev',
-  projectName: 'uxev-wiki',
-  i18n: {
-    defaultLocale: 'ko',
-    locales: ['ko'],
-  },
-
+  projectName: 'UXev Wiki',
   presets: [
     [
       'classic',
@@ -41,10 +37,6 @@ const config = {
     ({
       navbar: {
         title: 'UXev Wiki',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'doc',
@@ -67,16 +59,6 @@ const config = {
           {
             href: 'https://github.com/uxev',
             label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'https://www.linkedin.com/in/uxev/',
-            label: 'LinkedIn',
-            position: 'right',
-          },
-          {
-            href: 'https://uxev.github.io',
-            label: 'Blog',
             position: 'right',
           },
         ],

@@ -1,5 +1,5 @@
 {
-  "name": "uxev-wiki",
+  "name": "UXev Wiki",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
   "dependencies": {
     "@docusaurus/core": "2.2.0",
     "@docusaurus/preset-classic": "2.2.0",
+    "@docusaurus/types": "^2.2.0",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "prism-react-renderer": "^1.3.5",
@@ -24,7 +25,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.2.0"
+    "@docusaurus/module-type-aliases": "2.2.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5"
   },
   "browserslist": {
     "production": [
