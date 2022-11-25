@@ -1,5 +1,5 @@
 ---
-title: Create DB and Connect to Prisma using pscale
+title: pscale을 통해 Prisma를 PlanetScale와 연결하기
 ---
 
 PlanetScale을 이용해 데이터베이스를 생성하고, Prisma를 연결하는 두 가지 방법이 존재합니다.

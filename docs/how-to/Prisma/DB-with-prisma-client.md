@@ -1,5 +1,5 @@
 ---
-title: Use Prisma Client
+title: Prisma Client 사용하기
 ---
 
 [Prisma Client](https://www.prisma.io/docs/concepts/components/prisma-client)는 Prisma가 스키마를 보고 TypeScript 타입으로 생성한 결과로, 데이터베이스에 접근할 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: Setup Prisma in Visual Studio Code
+title: Visual Studio Code에서 Prisma 사용하기
 ---
 
 1. Visual Studio Code에서 [Prisma 플러그인](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)을 설치합니다.
